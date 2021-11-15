@@ -7,3 +7,19 @@
 .form-control {
     outline: none;
 }
+
+.font-adj {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #01192B;
+}
+
+.font-adjII {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
