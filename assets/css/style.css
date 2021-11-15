@@ -8,18 +8,52 @@
     outline: none;
 }
 
+.bd-color {
+    background-color: #BAF1E7;
+    height: 40rem;
+}
+
+.title {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 60px;
+    line-height: 80px;
+    color: #4992af;
+}
+
+.sty_le {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(63, 134, 161);
+}
+
 .font-adj {
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 50px;
-    color: #01192B;
+    color: #3890d3;
 }
 
 .font-adjII {
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 50px;
+    background-color: skyblue;
+}
+
+.s_tyle {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-size: 1.5vw;
+    background-color: skyblue;
+}
+
+.icon-adj {
+    font-size: 50px;
 }

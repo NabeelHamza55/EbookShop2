@@ -2,22 +2,20 @@
 
 
 
-<div class=" container">
-    <div class="  p-5 ">
-        <center> 
-            <h1> The Book Hub </h1>
+<div class="bd-color p-5" >
+    <div class="">
+        <center>
+            <h1 class="title"> The Book Hub </h1>
          </center>
     </div>
-    <div class="">
-        <div class=" col-md-6 col-sm-12 font-adj  ">
-            <h1>
-                Featured Book Of the <br> Febuaury
+    <div class="row p-3 justify-content-between align-items-center">
+        <div class="col-6 p-5">
+            <h1 class="sty_le">
+                Featured Book of the <br> November
             </h1>
         </div>
-
-        <div class="container   col-md-6 col-sm-12">
-            <img style="width: 100%;" src="../images/hassan.jpg" alt="">
+        <div class="col-6">
+            <img style="width: 80%;" src="./images/2560.jpg" alt="">
         </div>
     </div>
 </div>
-            
