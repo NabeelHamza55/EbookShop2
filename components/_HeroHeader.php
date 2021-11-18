@@ -47,7 +47,7 @@
                     <div class="col-6 p-5">
                         <p class="lead">THEBOOKWORM EDITORS'</p>
                         <h1 class="sty_le">
-                            Featured Book of the <br> <b> November</b>
+                            Featured Book of The <br> <b> November</b>
                         </h1>
                         <button type=""  class="get-ap btn btn-lg  ">See More</button>
                     </div>

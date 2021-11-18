@@ -21,14 +21,17 @@
   <div class="col-sm border py-5 px-4">
   <img src="./images/2560.jpg" style="width: 100%;"  height="200rem" alt="">
 
-<p>Think Like a Monk: Train Your Mind Like a Peace & Purposes</p>
+<p>Think Like a Monk: in Your Mind Like a Peace & Purposes</p>
   </div>
 </div>
 </div>
 </div>
 
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+
+
+<!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
     <div class="border py-5 px-4"> 
@@ -74,4 +77,4 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> -->
