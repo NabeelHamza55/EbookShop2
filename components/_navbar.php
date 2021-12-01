@@ -1,5 +1,20 @@
+<div class="top-bar bg-dark">
+    <div class="container text-light d-flex justify-content-between align-items-center">
+        <div class="">
+            <h3>Welcome</h3>
+        </div>
+        <div class="">
+            <nav class="navbar">
+                <a class="nav-link px-3" href="./login.php">Login</a>
+                <a class="nav-link px-3" href="./signup.php">Signup</a>
+            </nav>
+        </div>
+    </div>
+</div>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><img class="img-thumbnail" width="75px" src="./images/logo.jpg" alt="" srcset=""></a>
+    <a class="navbar-brand" href="#"><img class="img-thumbnail" width="75px" src="./images/logo.jpg" alt=""
+            srcset=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

@@ -36,7 +36,7 @@
                                   $_SESSION['login'] = $user;
                                  echo "
                                    <script>
-                                        window.location.href='../index.php';
+                                        window.location.href='./index.php';
                                    </script>
                                    ";
                              }

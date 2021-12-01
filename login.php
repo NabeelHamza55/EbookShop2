@@ -1,11 +1,11 @@
 <?php
      $title = 'Login';
-     include('head.php');
+     include('HTML_Start.php');
      include('functions/_login.php');
      login();
 ?>
 
-<div id="layoutAuthentication">
+<div class="bg-primary" id="layoutAuthentication">
     <div id="layoutAuthentication_content">
         <main>
             <div class="container">
@@ -48,7 +48,9 @@
                                     </div>
                                 </form>
                             </div>
-
+                            <div class="card-footer text-center py-3">
+                                <div class="small"><a href="./signup.php">Haven't any account? Signup Now</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,4 +58,4 @@
         </main>
     </div>
 
-    <?php include('body.php') ?>
+    <?php include('HTML_End.php') ?>

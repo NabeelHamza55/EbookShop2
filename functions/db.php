@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect('localhost', 'root', '', 'courseproject');
+$db = mysqli_connect('localhost', 'root', '', 'ebookshop');
 
 if (!($db)) {
      echo 'Database Error';

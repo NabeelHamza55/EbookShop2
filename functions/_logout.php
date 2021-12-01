@@ -4,7 +4,7 @@
           unset($_SESSION['login']);
           echo "
                <script>
-                    window.location.href='../login.php';
+                    window.location.href='./login.php';
                     alert('Logout Successfull');
                </script>
           ";

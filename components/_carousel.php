@@ -1,4 +1,4 @@
-<div class="container mt-5 mb-5" >
+<div class="container mt-5 mb-5">
     <div class="owl-carousel owl-theme">
         <div class="ml-2 mr-2" style="background-color:gray;">1</div>
         <div class="ml-2 mr-2" style="background-color:gray;">2</div>
