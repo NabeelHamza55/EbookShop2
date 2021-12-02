@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js">
     <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Ebook Shop</title>
 </head>
 
