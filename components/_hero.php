@@ -38,7 +38,7 @@
                          <i class="fas fa-heartbeat text-danger"></i>
                     </div>
                     <div>
-                        <h6 class="s_tyle">Romance</h6>
+                        <h6 class="s_tyle">Romance & Health</h6>
                     </div>  
                      <button class="btn btn-lg">Shop now</button>     
                 </div>
@@ -51,7 +51,7 @@
                         <i class="fas fa-stethoscope text-info"></i>
                     </div>
                     <div>
-                        <h6 class="s_tyle">Health</h6>
+                        <h6 class="s_tyle">General Knowledge</h6>
                     </div>       
                         <button class="btn btn-lg">Shop now</button>  
                 </div>
