@@ -1,7 +1,8 @@
 <?php $title = '';
 
 session_start();
-include('./functions/db.php') ?>
+include('functions/db.php');
+ ?>
 
 <!DOCTYPE html>
 <html lang="en">
