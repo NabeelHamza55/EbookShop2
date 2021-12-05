@@ -13,6 +13,7 @@ include('./functions/db.php') ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets\OwlCarousel2-2.3.4\dist\assets\owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/">
     <title>Ebook Shop</title>
 </head>
 
