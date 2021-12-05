@@ -1,15 +1,4 @@
-<div class="hero_header text-center" id="hero_header">
-    <div class="owl-carousel owl-theme">
-        <div style="height: 600px;" class="item">
-            <img src="./images/backgroud1.jpg" alt="">
-        </div>
-        <div style="height: 600px;" class="item">
-            <img src="./images/backgroud1.jpg" alt="">
-        </div>
-    </div>
-</div>
-
-<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -68,7 +57,7 @@
                 </div>
             </div>
         </div>
-
+        
     </div>
     <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -78,7 +67,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </button>
-</div> -->
+</div>
 
 <!-- <div class="bd-color p-5" >
     <div class="p-3">
