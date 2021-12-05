@@ -5,8 +5,18 @@
         </div>
         <div class="">
             <nav class="navbar">
-                <a class="nav-link px-3" href="./login.php">Login</a>
-                <a class="nav-link px-3" href="./signup.php">Signup</a>
+                <?php
+                    if (isset($_SESSION['login'])) {
+                         echo '
+                         <a class="nav-link px-3" href="./functions/_logout.php">logout</a>
+                         ';
+                    }else{
+                         echo '
+                         <a class="nav-link px-3" href="./login.php">Login</a>
+                         <a class="nav-link px-3" href="./signup.php">Signup</a>
+                         ';
+                    }
+               ?>
             </nav>
         </div>
     </div>

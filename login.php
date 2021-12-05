@@ -1,8 +1,16 @@
 <?php
      $title = 'Login';
-     include('HTML_Start.php');
+     include('Admin/HTML_Start.php');
      include('functions/_login.php');
      login();
+     if (isset($_SESSION['login'])) {
+          // NavBar
+          echo "
+          <script>
+          window.location.href='./index.php';
+          </script>
+          ";
+     }
 ?>
 
 <div class="bg-primary" id="layoutAuthentication">
@@ -58,4 +66,4 @@
         </main>
     </div>
 
-    <?php include('HTML_End.php') ?>
+    <?php include('Admin/HTML_End.php') ?>

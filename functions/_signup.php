@@ -1,5 +1,4 @@
 <?php
-include('db.php');
      $errors = ['email'=> '', 'password' => '', 'msg'=> ''];
      function register(){
           global $db;
@@ -10,7 +9,6 @@ include('db.php');
                $email = mysqli_real_escape_string($db, $_POST['inputEmail']);
                $password = mysqli_real_escape_string($db, $_POST['inputPassword']);
                $confPass = mysqli_real_escape_string($db, $_POST['inputPasswordConfirm']);
-
 
 
                if (empty($email)) {
@@ -32,15 +30,17 @@ include('db.php');
                              if ($row > 0) {
                                  $errors['msg'] = "User Already Exist";
                              } else {
-                                     $safePassword = sha1($password);
-                                     $createUser = "INSERT INTO users (first_name, last_name, email, password) VALUES ('$firstName', '$lastName', '$email', '$safePassword')";
-                                     if (mysqli_query($db, $createUser)) {
+                                  $safePassword = sha1($password);
+                                  $createUser = "INSERT INTO users (first_name, last_name, email, password, created_at) VALUES ('$firstName', '$lastName', '$email', '$safePassword', now())";
+                                  if (mysqli_query($db, $createUser)) {
                                         $errors['msg'] = "User Registration Successfull";
-                                         echo "
-                                             <script>
-                                                  window.location.href='./login.php';
-                                             </script>
-                                             ";
+                                        //  echo "
+                                        //      <script>
+                                        //           window.location.href='../login.php';
+                                        //      </script>
+                                        //      ";
+                                 }else{
+                                   $errors['msg'] = "System Error";
                                  }
                              }
                          }

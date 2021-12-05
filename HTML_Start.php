@@ -1,3 +1,6 @@
+<?php
+session_start();
+include('./functions/db.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 

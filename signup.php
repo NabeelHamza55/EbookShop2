@@ -1,17 +1,16 @@
 <?php
      $title = 'Register';
-     include('HTML_Start.php');
-
+     include('Admin/HTML_Start.php');
      include('./functions/_signup.php');
      register();
      if (isset($_SESSION['login'])) {
           // NavBar
-         echo "
-           <script>
-                window.location.href='http://localhost/patient/index.php';
-           </script>
-         ";
-      }
+          echo "
+          <script>
+          window.location.href='./index.php';
+          </script>
+          ";
+     }
 
 ?>
 
@@ -99,4 +98,4 @@
         </main>
     </div>
 
-    <?php include('HTML_End.php') ?>
+    <?php include('Admin/HTML_End.php') ?>

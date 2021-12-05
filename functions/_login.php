@@ -1,5 +1,4 @@
 <?php
-     include('db.php');
      $errors = ['email'=> '', 'password' => '', 'msg'=> ''];
      function login(){
           global $db;
