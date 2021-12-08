@@ -1,7 +1,7 @@
 <?php
      $title = 'Login';
-     include('Admin/HTML_Start.php');
-     include('functions/_login.php');
+     include('./Admin/HTML_Start.php');
+     include('./functions/_login.php');
      login();
      if (isset($_SESSION['login'])) {
           // NavBar
@@ -66,4 +66,4 @@
         </main>
     </div>
 
-    <?php include('Admin/HTML_End.php') ?>
+    <?php include('./Admin/HTML_End.php') ?>
