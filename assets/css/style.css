@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.form-control {
+    outline: none;
+}
+
+.bd-color {
+    background-color: #BAF1E7;
+    height: 40rem;
+}
+
+.title {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 80px;
+    color: #4992af;
+}
+
+.get-ap {
+    background: black;
+    box-shadow: 0px 4px 4px rgba(222, 243, 234, 0.747);
+    color: white;
+    font-size: 1.5vw;
+}
+
+.sty_le {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(63, 134, 161);
+}
+
+.font-adj {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #3890d3;
+}
+
+.font-adjII {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    /* background-color: skyblue; */
+}
+
+.s_tyle {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-size: 1.5vw;
+}
+
+.icon-adj {
+    font-size: 50px;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
